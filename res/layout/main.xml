@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    >
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="horizontal"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:gravity="center_horizontal">
+	
+		<TextView android:id="@+id/temperatureDisplay" 
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" 
+		    android:text="0"
+		    android:textSize="60sp"
+		    />
+		<TextView android:id="@+id/temperatureUnit" 
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" 
+		    android:text=""
+		    android:gravity="top"
+		    android:includeFontPadding="false"
+		    />
+	</LinearLayout>
+		
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="horizontal"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:gravity="center_horizontal"
+	    >
+		<TextView android:id="@+id/humidityDisplay"
+			android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textSize="60sp"
+		    android:text="0" />
+		<TextView android:id="@+id/humidityUnit" 
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" 
+		    android:text="%"
+		    />
+	</LinearLayout>
+	
+	<TextView android:id="@+id/statusDisplay"
+		android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center_horizontal" 
+	    android:text="@string/serviceStatusOff"/>
+	
+</LinearLayout>

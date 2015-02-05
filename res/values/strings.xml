@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">TempMonitor Client</string>
+<string name="setuppage_name">Setup</string>
+<string name="startButton">Start monitor</string>
+<string name="stopButton">Stop monitor</string>
+<string name="bindButton">Bind service</string>
+<string name="configButton">Setup</string>
+<string name="serviceStatusOff">Disconnected</string>
+<string name="serviceStatusOn">Connected</string>
+<string name="refreshTemperature">Force update</string>
+<string name="setWarningTemperature">Set warning temperature</string>
+<string name="celcius">C</string>
+<string name="fahrenheit">F</string>
+<string name="set_preferences">Preferences</string>
+</resources>

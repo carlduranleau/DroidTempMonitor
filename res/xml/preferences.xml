@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Configuration">
+		<ListPreference
+		        android:title="Unité"
+		        android:summary="Sélectionnez Celcius ou Fahrenheit"
+		        android:key="unit"
+		        android:defaultValue="0"
+		        android:entries="@array/units"
+		        android:entryValues="@array/unitsValues" />
+		<EditTextPreference
+				android:title="Température maximale"
+				android:summary="Température d'avertissement"
+				android:key="threshold"
+				android:defaultValue="25" />
+	</PreferenceCategory>
+</PreferenceScreen>
